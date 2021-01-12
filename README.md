@@ -4,6 +4,7 @@ Modulo de comentarios
 Frontend
 Para su correcto funcionamiento es necesario installar node_modules (npm install)
 El proyecto de angular contiene ya el componente de comentarios en la ruta components/inicio/comentario (Opcional), pero de igual manera se puede crear lo necesario para obtener el resultado esperado.
+El componente Comentario se queda con un ejemplo realizado (inconcluso) de como podria ser una posible solucion y con el metodo que recupera los datos arrojados por el backend para la pestaña de "historial", esto solo como un aporte de lo ya trabajado pero que no necesariamente debe de ser utilizado.
 
 De igual manera ya tiene un servicio implementado en services/comentarios.service para la implementacion de los metodos que se requieran para obtener comunicacion con el backend para la correcta funcionalidad.
 Ya estan creados los Models que posiblemente se necesiten para la implementacion, estos son clasificacion.model, comentario.model y usuario.model, esto fue implementado para poder recibir la respuesta del back, la cual es un arreglo de comentarios, estos solo se consideraron para realizar la pestaña de busqueda.
@@ -17,5 +18,6 @@ El framework ya esta diseñado para crear estilos en especifico, allegados a la 
 Pero de igual manera no se esta sujeto a solo utilizar estos estilos.
 https://www.gob.mx/guias/grafica#alertas
 (Para crear la alerta que se da al realizar la transición entre las pestañas y no haber guardar lo ingresado) ya existe en la pagina antes mencionada.
+
 
 
